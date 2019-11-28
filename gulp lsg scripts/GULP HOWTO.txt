@@ -1,0 +1,14 @@
+1. Download and install nodejs https://nodejs.org/en/download/
+
+2. launchnodejs.cmd
+
+3. first time command: npm install
+
+4. edit Gulpfile.js:
+
+	var baseRepo = 'https://github.com/appronto/'
+	var lsgrepo = 'Living-Style-Guide/'
+	var clientrepo = 'bkd/' 
+
+5. command: gulp dev (for github update, sass watch and browser sync) of
+   command: gulp github (for github sync)
